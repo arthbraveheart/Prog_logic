@@ -1,4 +1,34 @@
-/* Given and tape with zeros and ones, we have to decode it to find a word */
+/* Given and tape with zeros and ones, we have to decode it to find a word, for exemple:
+Input:
+{               "0     0",
+                "00   0 ",
+                "00    0",
+                "00   00",
+                "00    0 ",
+                "0000   ",
+                "00 0  0",
+                " 0 000 "
+ };
+ ---------
+ Output:
+ | 10000010 |
+65
+| 11000100 |
+98
+| 11000010 |
+97
+| 11000110 |
+99
+| 11000010 |
+97
+| 11110000 |
+120
+| 11010010 |
+105
+| 01011100 |
+46
+Abacaxi.
+*/
 
 #include <stdio.h>
 #include <string.h>
